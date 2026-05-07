@@ -3575,3 +3575,22 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+.portfolio-item {
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.4s ease;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(102,145,255,0.3);
+}
+
+.portfolio-item img {
+  transition: 0.5s ease;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.08);
+}
